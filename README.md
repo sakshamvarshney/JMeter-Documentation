@@ -167,7 +167,7 @@ There are certain limitations to the number of users you can run, with the CPU m
 >**In Master Machine:**
 1. Go to bin directory > Open jmeter.properties
 2. Make this "server.rmi.ssl.disable" config unhide and true
-3. Give this "remote_josts" config the IP address of slave machine
+3. Give this "remote_hosts" config the IP address of slave machine
 4. Launch the JMeter application and start the test on Remote server as Click on Run from top menu > Click Remote Start > Select the Slave Machine IP Address
 
 **Pre-cautions:**
